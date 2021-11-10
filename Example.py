@@ -32,5 +32,5 @@ print(detection_values)
 
 """
 Here, the figure, detection altitudes and gradients of each profile, 
-except for Richardson index, are returned.
+except for Richardson index, are returned. See 'Example.jpg' for the figure.
 """
