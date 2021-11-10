@@ -1,20 +1,19 @@
 # SoundingDataPlotter (v0.1)
 Group of Python scripts to plot University of Wyoming (UWYO) and processed OWLETS-2 sounding data.
 
-WARNING: These scripts were made by an amatuer wannabe data science poser who only slightly knows what he is doing. Use at your own risk...
+WARNING: A lot of these scripts were made for personal use and are not optimized. Use at your own risk...
 
 These scripts are meant to be run in the same directory. The hierarchy as shown here is what you should emulate on your device for them to work.
 
-## Folder Descriptions
-`Helpers` - Contains the helper files used to create the visualizations and process the data.
-
-The sounding files in this repository are from the [OWLETS-2](https://www-air.larc.nasa.gov/cgi-bin/ArcView/owlets.2018?SONDE=1) campaign conducted during the summer of 2018. These soundings were performed at Hart Miller Island (HMI), Howard University Beltsville (HUBV), and the University of Maryland, Baltimore County (UMBC).
+## Folder/File Descriptions
+The sounding data in this repository are from the [OWLETS-2](https://www-air.larc.nasa.gov/cgi-bin/ArcView/owlets.2018?SONDE=1) campaign conducted during the summer of 2018. These soundings were performed at Hart Miller Island (HMI), Howard University Beltsville (HUBV), and the University of Maryland, Baltimore County (UMBC).
 
 **Full Sounding Data:**
 
 `Raw Soundings` - All of the sounding data converted from ICARRT to csv, separated by each launch with columns holding a different measurement variable. The data between each sounding may vary due to a different type of model used, so be sure to check the "Header" column for more details.
 
 **Processed Data:**
+`Filenames.csv` - Contains the locations for all of the processed sounding files.
 
 `Derived MR` - These are the soundings where I derived the mixing ratio using the Arden Buck Eqaution
 
