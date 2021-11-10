@@ -1,7 +1,7 @@
 # SoundingDataPlotter (v0.1)
 Group of Python scripts to plot University of Wyoming (UWYO) and processed OWLETS-2 sounding data.
 
-WARNING: A lot of these scripts were made for personal use and are not optimized. Use at your own risk...
+WARNING: A lot of this code were made for personal use and are not optimized. Use at your own risk...
 
 These scripts are meant to be run in the same directory. The hierarchy as shown here is what you should emulate on your device for them to work.
 
@@ -42,11 +42,13 @@ Ri - Richardson Index (*Note: Treat as preliminary data, may be inaccurate*); (u
 ## Scripts
 The scripts described below require the following 3rd party packages: matplotlib, metpy, numpy, pandas, siphon, and scipy. They are compatible with >= Python 3.8.5.
 
-`OzoneDataProcessor.py`: Plots the vertical profiles of ozone, potential temperature, relative humidity, specific humidity, atmospheric refractivity, and stability using the processed files described above. In addition, this script will also detect the planetary boundary layer using a methodology similar to the one described in [Wang et al. (2014)](https://amt.copernicus.org/articles/7/1701/2014/amt-7-1701-2014.pdf). 
-An example of one of the created plots is shown below.
+`OzoneDataProcessor.py`: Plots the vertical profiles of ozone, potential temperature, relative humidity, specific humidity, atmospheric refractivity, and stability using the processed files described above. In addition, this script will also detect the planetary boundary layer using a methodology similar to the one described in [Wang et al. (2014)](https://amt.copernicus.org/articles/7/1701/2014/amt-7-1701-2014.pdf). For convenience, the plots and detection values are already included in the folder `PBL Detection`. One of the created plots is shown below.
 
-![HUBV29-Jun-2018 172732](https://user-images.githubusercontent.com/94017926/141014186-5fe346dd-ec26-4ad8-a1fe-d188bd487da8.jpg)
+![HUBV02-Jul-2018 124724](https://user-images.githubusercontent.com/94017926/141155406-9166fac6-937d-4ecf-9ddd-7ffd2fa00502.jpg)
 
-`PlotSoundings.py`: Similar to `OzoneDataProcessor.py`, but contains functions rather than being a single script. `Example.py` shows how to use some of these functions to process a UWYO Sounding.
+`SoundingPlotterFunctions.py`: Similar to `OzoneDataProcessor.py`, but contains functions rather than being a single script. `Example.py` shows how to use some of these functions to process a UWYO Sounding. To utilize these functions in personal code, insert this file into the same directory as your code and use 
 
+```python
+import SoundingPlotterFunctions
+```
 Feel free to submit a pull request for new features and/or bug fixes.
