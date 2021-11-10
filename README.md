@@ -41,6 +41,7 @@ malr - Moist Adiabatic Lapse Rate; Displayed in K/km
 Ri - Richardson Index (*Note: Treat as preliminary data, may be inaccurate*); (unitless)
 
 ## Scripts
+The scripts described below require the following 3rd party packages: matplotlib, metpy, numpy, pandas, and scipy. They are compatible with >= Python 3.8.5.
 
 `OzoneDataProcessor.py`: Plots the vertical profiles of ozone, potential temperature, relative humidity, specific humidity, atmospheric refractivity, and stability using the processed files described above. An example of one of the created plots is shown below.
 
@@ -53,4 +54,4 @@ Ri - Richardson Index (*Note: Treat as preliminary data, may be inaccurate*); (u
 
 
 
-
+Feel free to submit a pull request for new features and/or bug fixes.
