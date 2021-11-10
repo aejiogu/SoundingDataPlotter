@@ -49,6 +49,7 @@ The scripts described below require the following 3rd party packages: matplotlib
 `SoundingFunctions.py`: Similar to `OzoneDataProcessor.py`, but contains functions rather than being a single script. `Example.py` shows how to use some of these functions to process a UWYO Sounding. To utilize these functions in personal code, insert this file into the same directory as your code and use 
 
 ```python
-import SoundingFunctions
+import SoundingFunctions as sf
 ```
+
 Feel free to submit a pull request for new features and/or bug fixes.
