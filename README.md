@@ -52,4 +52,4 @@ The scripts described below require the following 3rd party packages: matplotlib
 import SoundingFunctions as sf
 ```
 
-Feel free to submit a pull request for new features and/or bug fixes.
+Feel free to submit an issue report for new features and/or bug fixes.
